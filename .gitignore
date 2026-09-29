@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Configurações locais do Streamlit e segredos
+.streamlit/secrets.toml
+
+# Base CSV bruta grande (122 MB - excede o limite de 100 MB do GitHub)
+# O app utiliza 'data/base_respostas_longa_cpa.parquet' (apenas 191 KB), ultra-rápido e nativo!
+data/base_respostas_longa_cpa.csv
+
+# Arquivos temporários e do sistema operacional
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
